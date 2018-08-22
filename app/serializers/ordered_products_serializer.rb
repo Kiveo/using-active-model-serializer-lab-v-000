@@ -1,3 +1,3 @@
 class OrderedProductsSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :product_id
 end
