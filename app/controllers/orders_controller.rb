@@ -10,6 +10,7 @@ class OrdersController < ApplicationController
 
   def show
     @order = Order.find(params[:id])
+    render json: @order, status: 200
   end
 
 end
